@@ -14,6 +14,7 @@
 		AB59E762297C68DA00C3388D /* MacLandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59E761297C68DA00C3388D /* MacLandmarksTests.swift */; };
 		AB59E76C297C68DA00C3388D /* MacLandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59E76B297C68DA00C3388D /* MacLandmarksUITests.swift */; };
 		AB59E76E297C68DA00C3388D /* MacLandmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB59E76D297C68DA00C3388D /* MacLandmarksUITestsLaunchTests.swift */; };
+		ABD623F3297D17F700BE328D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD623F2297D17F700BE328D /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		AB59E767297C68DA00C3388D /* MacLandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacLandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB59E76B297C68DA00C3388D /* MacLandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLandmarksUITests.swift; sourceTree = "<group>"; };
 		AB59E76D297C68DA00C3388D /* MacLandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacLandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABD623F2297D17F700BE328D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				AB59E753297C68DA00C3388D /* Assets.xcassets */,
 				AB59E758297C68DA00C3388D /* MacLandmarks.entitlements */,
 				AB59E755297C68DA00C3388D /* Preview Content */,
+				ABD623F2297D17F700BE328D /* Item.swift */,
 			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB59E752297C68D900C3388D /* ContentView.swift in Sources */,
+				ABD623F3297D17F700BE328D /* Item.swift in Sources */,
 				AB59E750297C68D900C3388D /* MacLandmarksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
